@@ -83,6 +83,11 @@ Classic::Classic()
 	mvp[0] = '\0';
 }
 
+CLassic::~Classic()
+{
+	delete[] mvp;
+}
+
 void Classic::Report() const
 {
 	Cd::Report();
