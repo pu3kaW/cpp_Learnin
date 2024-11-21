@@ -25,6 +25,7 @@ public:
 	Classic(const char* m, const char* s1, const char* s2, int n, double x);
 	Classic(const char* m, Cd& d);
 	Classic();
+	~Classic();
 	virtual void Report() const;
 	Classic& operator=(const Classic& c);
 };
